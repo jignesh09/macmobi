@@ -4,13 +4,7 @@
     id        = "CX3D3YSGSF..com.marantecamerica.com.MAC2015"
     version   = "1.0.0">
 <cordova>
-  <!-- ... -->
-  <plugins>
-    <!-- ... -->
     
-
-  </plugins>
-  <!-- ... -->
 </cordova>
 <name>Marantec America Garage Door Openers</name>
 
@@ -18,6 +12,7 @@
 Marantec America Garage Door Openers App
 </description>
 <preference name="stay-in-webview" value="false" />
+<gap:plugin name="com.phonegap.plugins.childbrowser" />
 
 <gap:splash src="splash.png" gap:platform="ios" width="320" height="480" />
 <icon src="apple-touch-icon-ipad.png" gap:platform="ios" width="57" height="57" />

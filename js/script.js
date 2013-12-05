@@ -1,6 +1,10 @@
 var serviceURL = 'http://184.107.213.34/~projects/demo_projects/mobile/macmobi/webservice.php?';
 $( document ).ready(function() {
-  
+    $("#openstoremenu").click(function(){
+        window.plugins.childBrowser.showWebPage('https://store.marantecamerica.com/index.php?main_page=index&amp;cPath=1',
+                                        { showLocationBar: true });
+    });
+    
     $("#contactsubmit").click(function(){
         var cName = $('#textinput1').val();
         var cEmail = $('#textinput2').val();
