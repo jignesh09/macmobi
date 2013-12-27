@@ -12,8 +12,12 @@
 Marantec America Garage Door Openers App
 </description>
 <preference name="stay-in-webview" value="false" />
+<preference name="orientation" value="portrait" />
 <gap:plugin name="com.phonegap.plugins.childbrowser" />
-
+<plugin name="InAppBrowser" value="CDVInAppBrowser" />
+<plugin name="InAppBrowser" />
+<access origin="*" />
+<access origin="http://marantecamerica.com" subdomains="true" />
 <gap:splash src="splash.png" gap:platform="ios" width="320" height="480" />
 <icon src="apple-touch-icon-ipad.png" gap:platform="ios" width="57" height="57" />
 <icon src="apple-touch-icon-iphone4.png" gap:platform="ios" width="72" height="72" />
